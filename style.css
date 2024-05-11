@@ -437,8 +437,7 @@ span {
     .nav-ul{
         margin: 10px;
         column-gap: 20px;
-        /* align-items: center;
-        justify-content: center; */
+       
     }
     .navbar-right-side {
         padding: 0;
@@ -506,9 +505,7 @@ span {
         display: flex;
         justify-content: space-between;
     }
-    /* .code {
-        padding: 20px 50px;
-    } */
+    
     .footer{
         width: 100%;
         height: auto;
@@ -841,7 +838,7 @@ span {
     }
     .checkout ul {
         list-style: none;
-        display: flex;
+        display: grid;
         column-gap: 5px;
         color: #828288;
     }
@@ -857,7 +854,7 @@ span {
         width: 100%;
     }
     .code {
-        padding: 20px 50px;
+        padding: 10px 30px;
     }
     .footer{
         width: 100%;
@@ -865,9 +862,13 @@ span {
         background-color: #0D0D0D;
         color: #FFFF;
         padding: 1rem;
-        display: grid;
-        grid-template-columns: auto auto;
         row-gap: 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto;
     }
     .executive form {
         margin-left: 0;
